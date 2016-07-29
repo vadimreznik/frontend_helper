@@ -4,7 +4,6 @@
   "description": "An npm Package for Node.js to create a boilerplate web page includes html, css and js files",
   "main": "helper.js",
   "scripts": {
-    "install": "frontend_helper/helper.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
