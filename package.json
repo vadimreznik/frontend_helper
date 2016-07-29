@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/vadimreznik/frontend_helper.git"
   },
+  "bin": "./frontend_helper/helper.js",
   "keywords": [
     "helper",
     "ui",
