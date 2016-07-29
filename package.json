@@ -1,0 +1,42 @@
+{
+  "name": "frontend_helper",
+  "version": "1.0.0",
+  "description": "An npm Package for Node.js to create a boilerplate web page includes html, css and js files",
+  "main": "helper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadimreznik/frontend_helper.git"
+  },
+  "keywords": [
+    "helper",
+    "ui",
+    "frontend",
+    "template",
+    "boilerplate",
+    "ui",
+    "helper",
+    "frontend",
+    "helper",
+    "html",
+    "template",
+    "html5",
+    "template",
+    "html",
+    "boilerplate",
+    "html5",
+    "boilerplate",
+    "html",
+    "helper",
+    "html5",
+    "helper"
+  ],
+  "author": "Vadim Reznik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vadimreznik/frontend_helper/issues"
+  },
+  "homepage": "https://github.com/vadimreznik/frontend_helper#readme"
+}
