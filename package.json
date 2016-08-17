@@ -4,10 +4,8 @@
   "description": "An npm Package for Node.js to create a boilerplate web page includes html, css and js files",
   "main": "helper.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node node_modules/frontend_helper/helper.js init"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "./helper.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vadimreznik/frontend_helper.git"
