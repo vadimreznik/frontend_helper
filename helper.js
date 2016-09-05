@@ -24,7 +24,7 @@ var settings = {
 		js: '(function(){})();'
 	}
 };
-if(!!proccess.argv[2] && proccess.argv[2].toLowerCase() === 'init'){
+if(!!process.argv[2] && process.argv[2].toLowerCase() === 'init'){
 	copyFile('helper.js', '../..');
 } else {
 	fs.mkdir(settings.folder.css);
@@ -36,12 +36,12 @@ if(!!proccess.argv[2] && proccess.argv[2].toLowerCase() === 'init'){
 
 function copyFile(source, target, cb) {
 	var cbCalled = false;
-
+	var wr = fs.createWriteStream(target);
 	var rd = fs.createReadStream(source);
+
 	rd.on("error", function(err) {
 		done(err);
 	});
-	var wr = fs.createWriteStream(target);
 	wr.on("error", function(err) {
 		done(err);
 	});
